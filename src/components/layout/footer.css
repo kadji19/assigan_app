@@ -1,0 +1,144 @@
+footer{
+    background-color: #242424;
+    height: 85vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon{
+    background-color: rgba(116, 116, 116, 0.863);
+    padding: 10px;
+    clip-path: circle();
+    display: flex;
+    align-items: center;
+}
+
+.container_footer{
+    padding: 4% 15% 0% 5%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins', sans-serif;
+    height: 40vh;
+}
+
+.block-heading{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.list-block{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    list-style: none;
+}
+
+.inner-container a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_bottom{
+    background-color: #111116;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_bottom a{
+    color: #3ca6fdd7;
+    text-decoration: none;    
+}
+
+.social-icons{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+@media screen and (max-width: 990px) {
+
+    footer{
+        height: 75vh;
+        background: #000;
+    }
+    
+   
+    .container_footer{
+        height: 90%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .inner-container{
+        height: 48%;
+    }
+    
+
+
+
+}
+
+@media screen and (max-width: 820px) {
+
+    footer{
+        height: 50vh;
+        background: #000;
+    }
+    
+   
+    .container_footer{
+        height: 90%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .inner-container{
+        height: 45%;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 550px) {
+
+    footer{
+        height: 90vh;
+        background: #000;
+    }
+    
+   
+    .container_footer{
+        height: 85%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .inner-container{
+        height: 38%;
+    }
+
+    .footer_bottom{
+        height: 15%;
+        text-align: center;
+        align-items: center;
+    }
+
+
+}
