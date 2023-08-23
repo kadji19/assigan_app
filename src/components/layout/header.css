@@ -31,8 +31,7 @@
 }
 
 .logo_img{
-    width: 100px;
-    height: 50px;
+    width: 140px;
 }
 
 .navbar{
@@ -91,8 +90,10 @@
 @media (max-width: 990px){
 
     .header{
-        height: 10vh;
-        background: #000000;
+        height: 9vh;
+        background: #0e0d0de1;
+        justify-content: space-between;
+        /* padding: 0% 2% 0% 2%; */
     }
 
     .fixed-header{
@@ -105,22 +106,21 @@
     }
     
     .logo_img{
-        width: 120px;
-        height: 80px;
+        width: 100px;
     }
 
     .navbar{
-        position: relative;
-        top: 13vh;
-        left: -30%;
+        position: absolute;
+        top: 9vh;
+        left: 0%;
         height: 16vh;
-        width: 500px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        background-color: #ffffffa8;
-        transition: 1s;
+        background-color: #ffffffcb;
+        transition: 1.5s;
         transform: translateY(-100vh);
     }
 
@@ -137,6 +137,8 @@
     .nav_btn{
         visibility: visible;
         opacity: 1;
+        color: #fff;
+        font-size: 40px;
     }
 
     .responsive_nav{
@@ -153,8 +155,10 @@
 @media (max-width: 550px){
 
     .header{
-        height: 10vh;
-        background: #000000;
+        height: 9vh;
+        background: #0e0d0de1;
+        justify-content: space-between;
+        /* padding: 0% 2% 0% 2%; */
     }
 
     .fixed-header{
@@ -167,23 +171,25 @@
     }
     
     .logo_img{
-        width: 120px;
-        height: 80px;
+        width: 100px;
     }
+
     .navbar{
-        position: relative;
-        top: 13vh;
-        left: -20%;
+        position: absolute;
+        top: 9vh;
+        left: 0%;
         height: 16vh;
-        width: 500px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        background-color: #ffffffa8;
+        background-color: #ffffffbe;
         transition: 1s;
         transform: translateY(-100vh);
     }
+
+
 
     
     .menu{

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './header.css';
 import {Link} from 'react-router-dom';
+import 'boxicons/css/boxicons.min.css'
 import logoAssigan from "../../asset/assigan.png";
 
 function Header() {
@@ -41,7 +42,9 @@ function Header() {
                 </ul>
             </div>
             <button onClick={showNavbar} className='nav_btn'>
-                <box-icon name='menu' color='#ffffff' ></box-icon>
+                {/* <box-icon name='menu' color='#ffffff' ></box-icon> */}
+                
+                <i class='bx bx-menu' ></i>
             </button>
             <div className='button'>
                 <button className='btn'>Download</button>

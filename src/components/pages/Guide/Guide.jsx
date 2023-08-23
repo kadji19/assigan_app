@@ -64,14 +64,14 @@ function Guide() {
                   <li>Partagez avec vos amis et la communauté locale avec Facebook, Twitter, WhatsApp, etc.</li>
                 </ul>
               </div>
-              <div className='column8'>
+              <div className='column2'>
                 <img src={assiganPub} alt="" />
               </div>
             </div>
         </section>
         <section >
-            <div className='row'>
-            <div className='column8'>
+            <div className='row form_pub'>
+            <div className='column2'>
                 <img src={assiganFormPub} alt="" />
               </div>
               <div className='column9'>
@@ -84,7 +84,7 @@ function Guide() {
               </div>
             </div>
         </section>
-        <section >
+        <section className='section_row5'>
             <div className='row5'>
               <div className='column3'>
                 <span>Mettre en avant un produit</span>

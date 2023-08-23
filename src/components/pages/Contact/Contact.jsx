@@ -8,23 +8,31 @@ import "./contact.css"
 function Contact() {
   return (
     <div>
-        <section>
+        <section className='contact'>
             <div className='column7'>
                 <span>Nous contacter </span>
             </div>
         </section>
-        <section>
+        <section className='contact'>
            <div className='row6'>
            <div className='column11'>
                     <span>Get in touch</span>
                  <form action="">
                     <textarea name="" id="" cols="81" rows="13"></textarea>
                     <div className='column12'>
-                    <input type="text" name="nom" placeholder='votre nom' />
-                    <input type="email" name="email" placeholder='votre email' />
-
+                        <div className='form_control'>
+                        <input type="text" name="nom" />
+                            <label htmlFor="" className='label'>Enter your name</label>
+                        </div>
+                        <div className='form_control'>
+                        <input type="email" name="email"  />
+                        <label htmlFor="" className='label'>Enter email address</label>
+                        </div>
                     </div>
+                    <div className='form_control'>
                     <input type="text" name="autreChamp" />
+                    <label htmlFor="" className='label'>Enter Subjet</label>
+                    </div>
                 </form>
                 <button>send</button>
             </div>

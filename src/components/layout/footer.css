@@ -116,11 +116,50 @@ footer{
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 590px) {
 
     footer{
         height: 90vh;
         background: #000;
+    }
+    
+   
+    .container_footer{
+        height: 85%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .inner-container{
+        height: 38%;
+    }
+
+    .footer_bottom{
+        height: 15%;
+        text-align: center;
+        align-items: center;
+    }
+
+
+}
+@media screen and (max-width: 590px) {
+
+    footer{
+        height: 100vh;
+        background: #000;
+    }
+
+    .block-heading{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .icon{
+        padding: 8px;
+    }
+    
+    .list-block{
+        font-size: 14px;
     }
     
    
